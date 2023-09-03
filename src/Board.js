@@ -70,6 +70,10 @@ export default class Board extends React.Component {
             <div className="col-md-4">
               {this.renderSwimlane('Complete', this.state.clients.complete, this.swimlanes.complete)}
             </div>
+              <div className="Shipping-Requests">
+                <div className="Swimlane">
+                  {this.renderSwimlane('Title', this.state.clients.name, this.simlanes.class.Swimlane)}
+              </div>
           </div>
         </div>
       </div>
